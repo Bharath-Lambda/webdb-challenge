@@ -1,0 +1,15 @@
+{
+  "name": "webdb-challenge",
+  "version": "1.0.0",
+  "description": "webdb-challenge",
+  "main": "index.js",
+  "repository": "https://github.com/Bharath-Lambda/webdb-challenge.git",
+  "author": "Bharath <b.lavendra.95@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.17.6",
+    "sqlite3": "^4.0.9"
+  }
+}
