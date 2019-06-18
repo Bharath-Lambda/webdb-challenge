@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "webdb-challenge",
   "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
   "repository": "https://github.com/Bharath-Lambda/webdb-challenge.git",
   "author": "Bharath <b.lavendra.95@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "express": "^4.17.1",
+    "helmet": "^3.18.0",
     "knex": "^0.17.6",
+    "morgan": "^1.9.1",
+    "node": "^12.4.0",
+    "nodemon": "^1.19.1",
     "sqlite3": "^4.0.9"
   }
 }
